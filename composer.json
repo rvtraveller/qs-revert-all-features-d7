@@ -2,5 +2,8 @@
   "name": "rvtraveller/qs-revert-all-features-d7",
   "description": "Quicksilver implementation to revert all features in a Drupal 7 site.",
   "type": "quicksilver-module",
-  "license": "MIT"
+  "license": "MIT",
+  "require": {
+    "php": ">=5.5.0"
+  }
 }
