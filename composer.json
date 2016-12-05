@@ -4,6 +4,7 @@
   "type": "quicksilver-module",
   "license": "MIT",
   "require": {
-    "php": ">=5.5.0"
+    "php": ">=5.5.0",
+    "rvtraveller/qs-composer-installer": "dev-master"
   }
 }
