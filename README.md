@@ -12,3 +12,18 @@ Note that with the current `webphp` type operations (currently the only option f
 3. Test a deploy out!
 
 Optionally, you may want to use the `terminus workflows watch` command to get immediate debugging feedback.
+
+## Example composer.json file ##
+
+```
+{
+  "require": {
+    "rvtraveller/qs-revert-all-features-d7": "1.0"
+  },
+  "extra": {
+    "installer-paths": {
+      "web/private/scripts/quicksilver/{$name}": ["type:quicksilver-module"]
+    }
+  }
+}
+```
